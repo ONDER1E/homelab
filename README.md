@@ -13,8 +13,8 @@ The genesis of this documentation isn't just best practice - it's insurance. Fol
 
 | Component | Hardware/Platform | Role | Status |
 | :--- | :--- | :--- | :--- |
-| **Node 1 (Custom built)** | Windows Server 2022 | VM, RM and storage backup | Online |
-| **Node 2 (Lenovo P500)** | TrueNAS | Bulk data and micro services | Online |
+| **S1 (Custom built)** | Windows Server 2022 | VM, RM and storage backup | Online |
+| **S2 (Lenovo P500)** | TrueNAS | Bulk data and micro services | Online |
 | **ONT1 (Adtran SDX631)** | Proprietary | XGS-PON ONT | Online |
 | **R1 (Technicolor FGA5330CFL)** | Proprietary (OpenWRT-based) | ISP Router | Online |
 | **AP1 (Linksys Velop SPNMX56)** | Proprietary | Root Wi-Fi AP node | Online |
