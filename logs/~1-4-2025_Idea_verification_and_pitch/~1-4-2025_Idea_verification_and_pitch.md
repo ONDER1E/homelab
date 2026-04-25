@@ -1,6 +1,7 @@
 ### Progress
 
-![Image failed to render go to: https://github.com/ONDER1E/homelab/blob/main/logs/~1-4-2025_Idea_verification_and_pitch/lackrack_blender/final0001-0330.mp4](https://github.com/ONDER1E/homelab/blob/main/logs/~1-4-2025_Idea_verification_and_pitch/lackrack_blender/final0001-0330.mp4)
+<video src="https://github.com/ONDER1E/homelab/blob/main/logs/~1-4-2025_Idea_verification_and_pitch/lackrack_blender/final0001-0330.mp4?raw=true" width="600" controls>
+</video>
 
 - Mother approved to fund
 
