@@ -18,4 +18,4 @@
 
 - Ultimately settle with this since it's in a rack and I prefer it be rackmounted, disapointed that I can't do the same for S1 since I'm not sure the 4 L-brackets each with 2 screws to the legs can support SW1, S1 and S2 together and the UK socket hub is too tall, maybe I'll get rid if it later since it's old but it is still safe as it has a surge protector:
 
-![Image failed to render go to: https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260410_033408.jpg](https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260410_033408.jpg)
+![Image failed to render go to: https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/obsolete/20260410_033408.jpg](https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/obsolete/20260410_033408.jpg)

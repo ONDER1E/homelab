@@ -38,4 +38,4 @@ Notes:
 
 ### Current look
 
-![Image failed to render go to: https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260410_033408.jpg](https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260410_033408.jpg)
+![Image failed to render go to: https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260502_014341.jpg](https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260502_014341.jpg)
