@@ -2,6 +2,13 @@
 
 This repository serves as the definitive source of truth for my homelab configuration, hardware topology, and service deployments. 
 
+### Recent Changes (newest first)
+
+- [Physical reorder](https://github.com/ONDER1E/homelab/blob/main/logs/01-05-2026_configuration_change.md)
+
+- [S2: Upgraded primary NIC to 10G](https://github.com/ONDER1E/homelab/blob/main/logs/27-4-2026_S2_networking_upgrade.md)
+
+
 ### Why?
 The genesis of this documentation isn't just best practice - it's insurance. Following a dream where a bus... - related memory lapse led to the total neglect and eventual disposal of a perfectly good rack, I realized that my homelab exists mostly in my volatile memory.
 
