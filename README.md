@@ -4,6 +4,8 @@ This repository serves as the definitive source of truth for my homelab configur
 
 ### Recent Changes (newest first)
 
+- [Networking Cable Management](https://github.com/ONDER1E/homelab/blob/main/logs/04-05-26_networking_cable_management.md)
+
 - [Physical reorder](https://github.com/ONDER1E/homelab/blob/main/logs/01-05-2026_configuration_change.md)
 
 - [S2: Upgraded primary NIC to 10G](https://github.com/ONDER1E/homelab/blob/main/logs/27-4-2026_S2_networking_upgrade.md)
@@ -45,4 +47,4 @@ Notes:
 
 ### Current look
 
-![Image failed to render go to: https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260502_014341.jpg](https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260502_014341.jpg)
+![Image failed to render go to: https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260504_002335.jpg](https://github.com/ONDER1E/homelab/blob/main/media_(image-video)/latest/20260504_002335.jpg)
