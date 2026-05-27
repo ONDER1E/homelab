@@ -49,46 +49,46 @@ The genesis of this documentation isn't just best practice - it's insurance. Fol
 ### Networking at a glance
 
 <pre>
-       ┌─────────────────────────┐
-       │     [ ISP / Internet ]  │
-       └────────────┬────────────┘
-                    │ (XGS-PON Fiber) SC/APC SM OS2
-       ┌────────────▼────────────┐
-       │          ONT1           │  Adtran SDX631
-       └────────────┬────────────┘
-                    │ (Ethernet WAN) RJ45 CAT8
-       ┌────────────▼────────────┐
-       │           R1            │  Technicolor FGA5330CFL
-       └──────┬────────────┬─────┘  (Main Router)
-              │            │
-              │            │ RJ45 CAT8 ──► SFP+ RJ45 Transceiver
-              │ RJ45 CAT8  │
- ┌────────────▼────┐      ┌▼───────────────┐
- │       SW3       │      │       SW2      │ ONT-S508CL-8S
- └─┬─┬─┬─┬─────────┘      └────────────┬─┬─┘ (10G SFP+ Switch)
-   │ │ │ │  TP-Link TL-SG105S          │ │
-   │ │ │ │  (1G RJ45 Switch)           │ │
-   │ │ │ │                             │ │
-   │ │ │ │  (RJ45)   ┌────────────┐    │ │ (SFP+ Passive DAC * 2)
-   │ │ │ └──────────►│  SERVER 1  │◄───┘ │
-   │ │ │             └────────────┘      │
-   │ │ │            (LAGP / Failover)    │
-   │ │ │                                 │
-   │ │ │    (RJ45)   ┌────────────┐      │
-   │ │ └────────────►│  SERVER 2  │◄─────┘
-   │ │               └────────────┘
-   │ │              (LAGP / Failover)
-   │ └─────────────────────────────────────────────────────┐
-   │                                                       │
-   ▼ (RJ45)                                                ▼ (RJ45)
- ┌────────────────────────────────────────┐        ┌───────────────┐
- │             (Mains Wiring)             │        │               │ Linksys Velop SPNMX56
- │   Powerline ─────────────► Powerline   │        │      AP1      │ (Root Wi-Fi Node)
- └───────┬────────────────────────────────┘        └───────────────┘
-         │ (RJ45)
- ┌───────▼───────┐
- │      AP2      │ Linksys Velop WHW03
- └───────────────┘ (Wi-Fi Node)
+                      ┌─────────────────────────┐
+                      │    [ ISP / Internet ]   │
+                      └────────────┬────────────┘
+                                   │ (XGS-PON Fiber) SC/APC SM OS2
+                      ┌────────────▼────────────┐
+                      │          ONT 1          │  Adtran SDX631
+                      └────────────┬────────────┘
+                                   │ (Ethernet WAN) RJ45 CAT8
+                      ┌────────────▼────────────┐
+                      │        Router 1         │  Technicolor FGA5330CFL
+                      └──────┬────────────┬─────┘  (Main Router)
+                             │            │
+                             │            │ RJ45 CAT8 ──► SFP+ RJ45 Transceiver
+                             │ RJ45 CAT8  │
+        ┌────────────────────▼───┐    ┌───▼────────────────────┐
+        │        Switch 3        │    │        Switch 2        │  ONT-S508CL-8S
+        └─┬──┬──┬──┬─────────────┘    └─────────────┬──┬───────┘  (10G SFP+ Switch)
+          │  │  │  │   TP-Link TL-SG105S            │  │
+          │  │  │  │   (1G RJ45 Switch)             │  │
+          │  │  │  │                                │  │
+          │  │  │  │   (RJ45)      ┌────────────┐   │  │  (SFP+ Passive DAC * 2)
+          │  │  │  └──────────────►│  SERVER 1  │◄──┘  │
+          │  │  │                  └────────────┘      │
+          │  │  │                 (LAGP / Failover)    │
+          │  │  │                                      │
+          │  │  │      (RJ45)      ┌────────────┐      │
+          │  │  └─────────────────►│  SERVER 2  │◄─────┘
+          │  │                     └────────────┘
+          │  │                    (LAGP / Failover)
+          │  └────────────────────────────────────────────────────────────┐
+          │                                                               │
+          ▼ (RJ45)                                                        ▼ (RJ45)
+┌────────────────────────────────────────┐                     ┌──────────────────┐
+│             (Mains Wiring)             │                     │  Access Point 1  │ Linksys Velop SPNMX56
+│   Powerline ─────────────► Powerline   │                     │                  │ (Root Wi-Fi Node)
+└───────┬────────────────────────────────┘                     └──────────────────┘
+        │ (RJ45)
+┌───────▼────────┐
+│ Access Point 2 │  Linksys Velop WHW03
+└────────────────┘  (Wi-Fi Node)
 </pre>
 
  
